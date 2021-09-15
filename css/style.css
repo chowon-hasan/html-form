@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+background: #5CBAFF;
+
+padding: 15px 0;
+}
+header nav {
+
+width: 50%;
+
+margin: auto;
+}
+header nav ul{
+
+display: flex;
+
+justify-content: space-between;
+
+list-style: none;
+
+font-size: 16px;
+
+align-items: center;
+}
+header nav ul li {
+
+
+}
+header nav ul li a{
+
+text-decoration: none;
+
+color: #fff;
+
+text-transform: uppercase;
+}
+header nav ul li a img{
+
+}
+.content{
+
+display: flex;
+
+height: 89vh;
+}
+.featured-image{
+    
+width: 40%;
+    
+background-color: #5cbaff;
+    
+text-align: center;
+}
+.featured-image img{
+}
+.contact-form{
+
+width: 60%;
+
+background-color: #0093FF;
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+}
+.conatct{
+
+width: 40%;
+}
+.conatct h1{
+    
+font-size: x-large;
+    
+text-transform: capitalize;
+}
+.conatct p{
+    
+text-transform: capitalize;
+    
+font-size: 14px;
+    
+margin-top: 15px;
+    
+margin-bottom: 10px;
+}
+.conatct h5{
+    
+margin-bottom: 10px;
+    
+text-transform: capitalize;
+    
+font-size: larger;
+}
+.conatct form{
+    
+}
+.conatct form input{
+    
+width: 100%;
+    
+padding: 8px 5px 8px 9px;
+    
+margin: 5px 0 5px 0px;
+
+}
+
+.conatct form input[type="submit"]{width: auto;padding:0;color: #0093ff;margin-top: 10px;padding: 10px;
+}
+.social{display: flex;justify-content: space-between;margin: auto;}
+
+.social ul{
+
+justify-content: space-between;
+
+list-style: none;
+
+display: flex;
+
+align-items: baseline;
+
+margin-top: 30px;
+}
+
+
+.social ul li{
+
+font-size: 15px;
+
+margin-left: 11px;
+
+color: white;
+}
+
+.social ul li a{
+
+text-decoration: none;
+
+color: #fff;
+
+font-size: 17px;
+}
+.social ul li p{
+    
+font-size: 10px;
+}
